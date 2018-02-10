@@ -1,0 +1,21 @@
+{
+  "extends": ["google"],
+  "env": {
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "arrow-parens": ["error", "always"],
+    "arrow-spacing": "error",
+    "comma-dangle": "off",
+    "keyword-spacing": "error",
+    "max-len": "off",
+    "max-nested-callbacks": "off",
+    "no-warning-comments": "warn",
+    "require-jsdoc": "off",
+    "space-before-blocks": "error",
+    "space-in-parens": "error",
+    "yoda": "off"
+  }
+}
