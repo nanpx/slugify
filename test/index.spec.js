@@ -1,9 +1,7 @@
 (() => {
   'use strict';
 
-  const chai = require('chai');
   const Slugify = require('../index');
-  const expect = chai.expect;
 
   const DICTIONARY = {
     a: 'AⒶＡÀÁÂẦẤẪẨÃĀĂẰẮẴẲȦǠÄǞẢÅǺǍȀȂẠẬẶḀĄȺⱯaⓐａẚàáâầấẫẩãāăằắẵẳȧǡäǟảåǻǎȁȃạậặḁąⱥɐ',
@@ -50,15 +48,22 @@
   };
 
   describe('Slugify', () => {
+    describe('parse', () => {
+      it('should be a promise', () => {
+        expect(Slugify.parse()).toBeInstanceOf(Promise);
+      });
+    });
+
     describe('parseSync', () => {
       it('should reduce sequentual dashes into one', () => {
-        expect(Slugify.parseSync('test - - - string')).to.equal('test-string');
+        expect(Slugify.parseSync('test - - - string')).toStrictEqual('test-string');
       });
+
       describe('diacritics', () => {
         Object.keys(DICTIONARY).forEach((key) => {
           DICTIONARY[key].split('').forEach((char) => {
             it(`should convert ${char} to ${key}`, () => {
-              expect(Slugify.parseSync(char)).to.equal(key);
+              expect(Slugify.parseSync(char)).toStrictEqual(key);
             });
           });
         });
