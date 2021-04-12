@@ -1,13 +1,6 @@
 # slugify
 
-[![travis.ci](https://img.shields.io/travis/nanpx/slugify.svg?style=flat-square)](https://travis-ci.org/nanpx/slugify) [![current version](https://img.shields.io/npm/v/@nanpx/slugify.svg?style=flat-square)](https://www.npmjs.com/package/@nanpx/slugify)
-
-<!-- MarkdownTOC autolink="true" bracket="round" depth="2" indent="    " -->
-
-- [Install](#install)
-- [Use](#use)
-
-<!-- /MarkdownTOC -->
+![NPM Build](https://github.com/nanpx/slugify/actions/workflows/npm-build.yml/badge.svg) [![current version](https://img.shields.io/npm/v/@nanpx/slugify.svg?style=flat-square)](https://www.npmjs.com/package/@nanpx/slugify)
 
 ## Install
 
