@@ -1,6 +1,6 @@
 # slugify
 
-![NPM Build](https://github.com/nanpx/slugify/actions/workflows/npm-build.yml/badge.svg) [![current version](https://img.shields.io/npm/v/@nanpx/slugify.svg?style=flat-square)](https://www.npmjs.com/package/@nanpx/slugify)
+[![NPM Build](https://github.com/nanpx/slugify/actions/workflows/npm-build.yml/badge.svg?style=flat-square)](https://github.com/nanpx/slugify/actions/workflows/npm-build.yml) [![current version](https://img.shields.io/npm/v/@nanpx/slugify.svg?style=flat-square)](https://www.npmjs.com/package/@nanpx/slugify)
 
 ## Install
 
