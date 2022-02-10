@@ -29,9 +29,9 @@
     "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0"
   },
   "devDependencies": {
-    "conventional-changelog-cli": "^2.1.1",
-    "eslint": "^7.32.0",
+    "conventional-changelog-cli": "^2.2.2",
+    "eslint": "^8.8.0",
     "eslint-config-google": "^0.14.0",
-    "jest": "^27.0.6"
+    "jest": "^27.5.1"
   }
 }
