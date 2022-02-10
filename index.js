@@ -113,16 +113,16 @@
   class Slugify {
     static parse(str) {
       return Promise.resolve()
-      .then(() => Slugify.parseSync(str));
+          .then(() => Slugify.parseSync(str));
     }
 
     static parseSync(str) {
       str = convertDiacritics(String(str));
       return str.toLowerCase()
-      .replace((/\s+/g), '-')
-      .replace((/[^\w\-]+/g), '')
-      .replace((/\-\-+/g), '-')
-      .trim();
+          .replace((/\s+/g), '-')
+          .replace((/[^\w\-]+/g), '')
+          .replace((/\-\-+/g), '-')
+          .trim();
     }
   }
 
